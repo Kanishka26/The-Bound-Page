@@ -1,0 +1,98 @@
+body {
+    background: #f8efe4;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    color: #222;
+}
+
+h1 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.form-container {
+    background: #fff7ed;
+    max-width: 400px;
+    margin: 40px auto 0 auto;
+    padding: 40px 40px 30px 40px;
+    border-radius: 16px;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+}
+
+.form-container h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #222;
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 18px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1.05em;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #222;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px 12px;
+    border: 1.5px solid #cfcfcf;
+    border-radius: 6px;
+    font-size: 1em;
+    background: #fff;
+    transition: border-color 0.2s;
+    margin-bottom: 10px;
+}
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #4b2e83;
+    outline: none;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    background: #43b047;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 12px 0;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(67,176,71,0.12);
+    cursor: pointer;
+    margin-top: 18px;
+    transition: background 0.2s, transform 0.2s;
+}
+.submit-btn:hover {
+    background: #388e3c;
+    transform: translateY(-2px) scale(1.03);
+}
+
+.login-link {
+    margin-top: 30px;
+    font-size: 1.1em;
+    text-align: center;
+}
+.login-link a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+.login-link a:hover {
+    color: #43b047;
+}
